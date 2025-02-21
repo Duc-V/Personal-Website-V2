@@ -1,8 +1,7 @@
 import Image from "next/image";
-
 import Navbar from './Navbar'
-
-
+import Homepage from './Homepage'
+import Work  from './Work'
 export default function Home() {
 
   return (
@@ -10,17 +9,16 @@ export default function Home() {
       {/* nav-bar */}
       <Navbar/>
       {/* landing page */}
-      <div className="min-h-screen flex items-center px-4">
-        <div className="max-w-6xl mx-auto w-full">
-        </div>
-      </div>
+      <Homepage/>
 
+      {/* Work section */}
+      <Work/>
       {/* footer */}
-      <footer className="fixed bottom-10 z-50 w-full px-4">
+      {/* <footer className="fixed bottom-10 z-50 w-full px-4">
         <div>
           test
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 }
