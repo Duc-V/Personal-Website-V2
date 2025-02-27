@@ -5,7 +5,7 @@ const Homepage = () => {
   const signatureUrl = 'https://framerusercontent.com/assets/xtKTjwMJPKM7403TBmYhSKd7HG8.lottie'
   return (   
     <div>
-        <div className="h-[70vh] w-full px-4 flex flex-col justify-end font-Inter">
+        <div className="h-[70vh] w-full px-4 flex flex-col justify-end font-Inter z-auto">
             <div className='w-5/6 px-3 text-lg font-medium opacity-70'>
               <p>
                 Howdy! Meet your frontend developer,

@@ -1,7 +1,8 @@
-import Image from "next/image";
 import Navbar from './Navbar'
 import Homepage from './Homepage'
 import Work  from './Work'
+import About from './About'
+import Footer from './Footer'
 export default function Home() {
 
   return (
@@ -14,11 +15,12 @@ export default function Home() {
       {/* Work section */}
       <Work/>
       {/* footer */}
-      {/* <footer className="fixed bottom-10 z-50 w-full px-4">
-        <div>
-          test
-        </div>
-      </footer> */}
+
+      {/* about me */}  
+      <About/>
+      
+      <Footer/>
+
     </div>
   );
 }

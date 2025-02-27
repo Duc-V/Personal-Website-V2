@@ -18,8 +18,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className="fixed top-4 z-50 w-full animate-slideDown">
-
+    <nav className="fixed z-10 w-full animate-slideDown">
     {/* navbar md screen  */}
     <div className="hidden md:block left-1/2 bg-white shadow-md rounded-full border w-fit h-14 mx-auto font-Inter">
       <div className="px-6">
@@ -48,7 +47,7 @@ const Navbar = () => {
 
     {/* mobile navbar */}
     <div className="md:hidden absolute w-full px-4 z-30">
-        <div className='bg-black w-full rounded-3xl flex justify-between h-11 px-3 backdrop-blur-lg'>
+        <div className='bg-black w-full rounded-3xl flex justify-between h-11 px-3'>
             <Image
                 className='mx-2'
                 src={navIcon}
